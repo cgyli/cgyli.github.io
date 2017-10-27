@@ -1,0 +1,42 @@
+body {
+    background-color: lightblue;
+}
+
+header{
+
+}
+
+ul{
+  list-style-type:none;
+  margin:0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+
+li{
+  float: left;
+}
+
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.dropdown-menu{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background color: #f1f1f1;
+}
+
+h1 {
+    color: navy;
+    margin-left: 20px;
+}
