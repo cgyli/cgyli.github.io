@@ -2,41 +2,28 @@ body {
     background-color: lightblue;
 }
 
-header{
+
+nav{
+  display: block;
+  background-color: pink;
+  padding: 15px;
+  overflow: hidden;
 
 }
 
-ul{
-  list-style-type:none;
-  margin:0;
-  padding: 0;
+
+
+ul {
+  display: inline;
+  margin:5px;
+  padding: 5px;
   overflow: hidden;
   background-color: #333;
-}
+  text-decoration-color: gray;
 
+}
 
 li{
-  float: left;
-}
-
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-ul.dropdown-menu{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 200px;
-  background color: #f1f1f1;
-}
-
-h1 {
-    color: navy;
-    margin-left: 20px;
+  display: inline;
+  padding: 10px;
 }
